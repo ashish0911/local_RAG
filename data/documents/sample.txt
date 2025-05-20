@@ -1,0 +1,33 @@
+# Local RAG System
+
+This is a sample document for testing our Retrieval-Augmented Generation (RAG) system.
+
+## What is RAG?
+
+Retrieval-Augmented Generation (RAG) is a technique that enhances large language models by providing them with relevant information retrieved from a knowledge base. This approach allows the model to generate more accurate and contextually appropriate responses.
+
+Key components of a RAG system include:
+
+1. **Document Processing**: Converting various document formats into text that can be processed.
+2. **Text Chunking**: Breaking down documents into smaller, manageable pieces.
+3. **Embedding Generation**: Creating vector representations of text chunks.
+4. **Vector Storage**: Storing these embeddings in a vector database for efficient retrieval.
+5. **Retrieval**: Finding the most relevant information based on a query.
+6. **Generation**: Using the retrieved information to generate a response.
+
+## Benefits of RAG
+
+- Reduces hallucinations by grounding responses in factual information
+- Enables access to domain-specific knowledge
+- Allows for up-to-date information without retraining the model
+- Improves transparency by citing sources
+
+## Implementation with Langchain and Ollama
+
+Our implementation uses:
+- Langchain for orchestrating the RAG pipeline
+- Ollama for running LLMs locally
+- ChromaDB as a vector database
+- Document loaders and text splitters from Langchain
+
+This approach ensures privacy and data sovereignty while providing powerful AI capabilities.

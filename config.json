@@ -1,0 +1,11 @@
+{
+    "documents_dir": "data/documents",
+    "chroma_dir": "data/chroma_db",
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "model_name": "deepseek-r1:1.5b",
+    "embedding_model": "nomic-embed-text",
+    "temperature": 0,
+    "top_k": 4,
+    "prompt_template": "Answer the question based only on the following context:\n\n{context}\n\nQuestion: {question}\n\nAnswer:"
+}
