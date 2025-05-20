@@ -16,4 +16,29 @@ This project combines the power of modern LLMs with the flexibility of vector da
 
 ## Current Status
 
-- Loading model using ollama
+- Loading chat and embedding models using ollama
+
+## Hardware Requirements
+
+- 8GB+ RAM
+- 8-core CPU
+
+## Software Requirements
+
+- Python 3.13+
+- Ollama (https://ollama.com/download)
+- Langchain Ollama (https://github.com/ollama/langchain-ollama)
+
+## Installation
+
+```bash
+# Install ollama
+curl https://ollama.ai/install.sh | sh
+ollama pull deepseek-r1:1.5b
+ollama pull nomic-embed-text
+
+# Clone the repository
+git clone https://github.com/your-repo/local-rag.git
+cd local-rag
+uv run main.py
+```
